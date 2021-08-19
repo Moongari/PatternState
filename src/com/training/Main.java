@@ -12,7 +12,6 @@ public class Main {
 
 
         //Mettons en place le pattern State
-
         appareil1.setPosition(new Demarrer());
         appareil1.action();
         appareil1.setPosition(new Chauffage());
