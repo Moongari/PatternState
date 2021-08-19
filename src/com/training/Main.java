@@ -1,9 +1,6 @@
 package com.training;
 
-import com.training.Appareil.AppareilMenager;
-import com.training.Appareil.Chauffage;
-import com.training.Appareil.Demarrer;
-import com.training.Appareil.Refroidir;
+import com.training.Appareil.*;
 
 public class Main {
 
@@ -21,6 +18,8 @@ public class Main {
         appareil1.setPosition(new Chauffage());
         appareil1.action();
         appareil1.setPosition(new Refroidir());
+        appareil1.action();
+        appareil1.setPosition(new Stopper());
         appareil1.action();
     }
 }
