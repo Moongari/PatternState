@@ -16,6 +16,9 @@ public class Main {
         v1.action();
         v1.setInstruction("ralentir");
         v1.action();
+        v1.setInstruction("arreter");
+        v1.action();
+
         //Mettons en place le pattern State
 /*        appareil1.setPosition(new Demarrer());
         appareil1.action();
